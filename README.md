@@ -2,10 +2,6 @@
 
 A lightweight utility for splitting images into smaller sections.
 
-## Requirements
-
-Use the runtime or browser environment supported by the files in this repository.
-
 ## Installation
 
 ```bash
@@ -13,16 +9,16 @@ git clone https://github.com/ryoaonetsuki/image-splitter.git
 cd image-splitter
 ```
 
-If the repository contains dependency configuration, install the listed dependencies before running it.
+Install dependencies using the package manager and lockfile included in the repository, if present.
 
 ## Usage
 
-Run or open the application's main entry point as described by the project files. Select an image, choose the desired split layout, and export the generated sections.
+Open or run the application's main entry point as defined by the project files. Select an image, choose the desired split layout, and export the generated sections.
 
 ## Development
 
-Keep source files and generated output separate. Test with several image dimensions and formats after making changes.
+Test changes with different image dimensions and formats. Keep generated files outside the source tree when possible.
 
 ## Notes
 
-Large images may require additional memory during processing. Avoid uploading private images to third-party services unless you understand where the data is sent.
+Large images can require significant memory. Avoid sending private images to third-party services unless you understand the data flow.
